@@ -61,8 +61,13 @@ $font-family-sans-serif:      Changa, system-ui, -apple-system, "Segoe UI", Robo
 //   )
 // );
 
-#logo {
-    max-width: 100%;
+.header {
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+    #logo {
+        max-width: 100%;
+    }
 }
 
 .foo-bold {
