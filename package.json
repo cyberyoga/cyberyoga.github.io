@@ -1,0 +1,35 @@
+{
+  "name": "rc3-web",
+  "version": "1.0.0",
+  "description": "",
+  "source": "./src/index.html",
+  "targets": {
+    "main": {"publicUrl": "https://flecno.de/rc3"}
+  },
+  "scripts": {
+    "dev": "parcel ./src/index.html",
+    "prebuild": "npx rimraf dist",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moorhexa/rc3-web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moorhexa/rc3-web/issues"
+  },
+  "homepage": "https://github.com/moorhexa/rc3-web#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.1",
+    "@popperjs/core": "^2.11.0",
+    "bootstrap": "^5.1.3",
+    "bootstrap-icons": "^1.7.2",
+    "cssnano": "^5.0.14",
+    "parcel": "^2.0.1",
+    "postcss": "^8.4.5",
+    "sass": "^1.45.1"
+  }
+}

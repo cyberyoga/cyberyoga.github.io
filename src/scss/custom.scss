@@ -1,0 +1,107 @@
+$primary: #fff;
+$secondary: #fff;
+
+$body-bg: #000 !default;
+$body-color: #fff !default;
+
+// @font-face {
+//     font-family: 'Changa-SemiBold';
+//     src: url('./Changa-SemiBold.ttf');
+// }
+@font-face{
+    font-family:"Changa";
+    font-weight:400;
+    font-style:normal;
+    font-display:swap;
+    src:url("./Changa-Medium.woff2") format("woff2")
+}
+@font-face{
+    font-family:"Changa";
+    font-weight:700;
+    font-style:normal;
+    font-display:swap;
+    src:url("./Changa-SemiBold.woff2") format("woff2")
+}
+
+// TODO
+// @font-face{font-family:"SpaceMono";
+
+$font-family-sans-serif:      Changa, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+// $font-family-monospace:       SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+@import "../node_modules/bootstrap/scss/root";
+@import "../node_modules/bootstrap/scss/reboot";
+@import "../node_modules/bootstrap/scss/type";
+
+@import "../node_modules/bootstrap/scss/containers";
+@import "../node_modules/bootstrap/scss/grid";
+@import "../node_modules/bootstrap/scss/tables";
+@import "../node_modules/bootstrap/scss/nav";
+
+// FIXME: wieso geht das nicht?
+// @import "../node_modules/bootstrap/scss/utilities";
+// $utilities: map-merge(
+//   $utilities,
+//   (
+//     "font-weight": (
+//         property: font-weight,
+//         class: fw,
+//         values: (
+//           light: $font-weight-light,
+//           lighter: $font-weight-lighter,
+//           normal: $font-weight-normal,
+//           bold: $font-weight-bold,
+//           bolder: $font-weight-bolder
+//         )
+//       )
+//   )
+// );
+
+#logo {
+    max-width: 100%;
+}
+
+.foo-bold {
+    font-weight: $font-weight-bold;
+}
+
+// background
+.background-wrapper {
+    z-index: -10;
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    
+    * {
+        top: 0px;
+        left: 0px;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+    }
+}
+
+.background-fog {
+    top: 0%;
+    height: 100%;
+    background-image: url("../images/10_Background_desktop_02.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.background-grid {
+    background-image: url("../images/07_Grid.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.background-gradient {
+    background: rgba(0, 0, 0, 0) linear-gradient(135deg, #4d7ffa, #f035e8) repeat scroll 0% 0%;
+    mix-blend-mode: color;
+}
