@@ -28,7 +28,7 @@ $body-color: #fff !default;
 
 $font-family-sans-serif:      Changa, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
 // $font-family-monospace:       SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
-
+// @import "../node_modules/bootstrap/scss/bootstrap";
 @import "../node_modules/bootstrap/scss/functions";
 @import "../node_modules/bootstrap/scss/variables";
 @import "../node_modules/bootstrap/scss/mixins";
@@ -41,25 +41,8 @@ $font-family-sans-serif:      Changa, system-ui, -apple-system, "Segoe UI", Robo
 @import "../node_modules/bootstrap/scss/grid";
 @import "../node_modules/bootstrap/scss/tables";
 @import "../node_modules/bootstrap/scss/nav";
-
-// FIXME: wieso geht das nicht?
-// @import "../node_modules/bootstrap/scss/utilities";
-// $utilities: map-merge(
-//   $utilities,
-//   (
-//     "font-weight": (
-//         property: font-weight,
-//         class: fw,
-//         values: (
-//           light: $font-weight-light,
-//           lighter: $font-weight-lighter,
-//           normal: $font-weight-normal,
-//           bold: $font-weight-bold,
-//           bolder: $font-weight-bolder
-//         )
-//       )
-//   )
-// );
+@import "../node_modules/bootstrap/scss/utilities";
+@import "../node_modules/bootstrap/scss/utilities/api";
 
 .header {
     margin-top: 15px;
@@ -67,11 +50,8 @@ $font-family-sans-serif:      Changa, system-ui, -apple-system, "Segoe UI", Robo
 
     #logo {
         max-width: 100%;
+        max-height: 12vh;
     }
-}
-
-.foo-bold {
-    font-weight: $font-weight-bold;
 }
 
 // background
