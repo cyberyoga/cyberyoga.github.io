@@ -12,6 +12,10 @@
   description: |
     Wir schauen uns an, wie umfangreiche Audio Setups auf Linux mit den KX Studio Tools umzusetzen sind.
     Dies ist ein Hands On Workshop. Solltest Du jack noch nicht installiert haben, komm am Besten mit einem Zweitgerät in den Talk, da reboots bzw Änderungen der Gruppenzugehörigkeiten des Users notwendig sind. Pipewire ginge theoretisch auch, ist aber noch etwas frickelig.
+- title: sql-injection mit Chekov (DVWA)
+  room: chai
+  date: 28.12. 11:00
+  description: DVWA at http://hacking.kraut.space
 - title: III Weg
   room: mate
   date: 28.12. 13:00

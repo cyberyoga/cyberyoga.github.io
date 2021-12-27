@@ -1,25 +1,27 @@
-
-
 def load_events():
     import yaml
 
     rooms = {
-        'coffee': 'https://kabi.blue/join/coffee/',
-        'mate': 'https://kabi.blue/join/mate/',
-        'world and stream': 'https://stream.cyberyoga.org/public/club'
+        "coffee": "https://kabi.blue/join/coffee/",
+        "mate": "https://kabi.blue/join/mate/",
+        "chai": "https://kabi.blue/join/chai/",
+        "world and stream": "https://stream.cyberyoga.org/public/club",
     }
-    with open('schedule.yaml', 'r') as f:
+    with open("schedule.yaml", "r") as f:
         events = yaml.safe_load(f)
 
         # []
         for e in events:
-            if not e['description']:
-                e['description'] = ""
-            e['room_link'] = rooms[e['room']]
+            if not e["description"]:
+                e["description"] = ""
+            e["room_link"] = rooms[e["room"]]
         return events
-        
+
+
 from string import Template
-table = Template("""
+
+table = Template(
+    """
 <table class="table table-responsive-xd">
     <thead>
         <tr>
@@ -32,18 +34,20 @@ table = Template("""
         $rows
     </tbody>
 </table>
-""")
+"""
+)
 
 
-
-event_row = Template("""<tr>
+event_row = Template(
+    """<tr>
     <td>$date</td>
     <td><a href="$room_link">$room</a></td>
     <td>
         <span class="fw-bold fs-5">$title</span><br>
         $description
     </td>
-</tr>""")
+</tr>"""
+)
 
 events = load_events()
 
@@ -51,4 +55,4 @@ table_rows = []
 for e in events:
     table_rows.append(event_row.substitute(e))
 
-print(table.substitute({'rows':"\n".join(table_rows)}))
+print(table.substitute({"rows": "\n".join(table_rows)}))
