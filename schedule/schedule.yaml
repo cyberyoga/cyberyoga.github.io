@@ -58,6 +58,10 @@
   room: coffee
   date: 29.12. 15:00
   description: Blockchain ist für viele lediglich der steigende Bitcoin-Preis und ein Spielzeug weißer reicher Dudes auf der Börse. Doch zeitgleich wächst eine begeisterte Szene voll von Coops, Commons Verfechter*innen und social activist, die sich diese Technologie zunutze machen. Wir schauen uns anhand von Beispielen an, inwieweit sich Blockchain bereits heute eignet, große Teile der Finanzwelt obsolet zu machen und Monopole des Plattformkapitalismus zu stürzen. Und ziehen die marxistische Brille auf, um zu untersuchen, ob diese Lösung für den Aufbau einer sozialistischen Wirtschaft taugt. Know-how in Blockchain-Technologie ist nicht erforderlich
+- title: Workshop zu WebAppSec am Beispiel von hacking.kraut.space
+  room: chai
+  date: 29.12. 18:00
+  description: DVWA-Workshop des Hackspace Jena e.V.
 - title: Python
   room: coffee
   date: 29.12. 19:00
