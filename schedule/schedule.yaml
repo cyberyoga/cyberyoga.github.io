@@ -19,7 +19,7 @@
 - title: sql-injection mit Chekov (DVWA)
   room: chai
   date: 28.12. 11:00
-  description: DVWA at http://hacking.kraut.space
+  description: DVWA at <a href="http://hacking.kraut.space">http://hacking.kraut.space</a>
 - title: Der III. Weg - Ein Überblick
   room: mate
   date: 28.12. 13:00
