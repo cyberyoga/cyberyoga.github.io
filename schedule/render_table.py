@@ -41,7 +41,7 @@ table = Template(
 event_row = Template(
     """<tr>
     <td>$date</td>
-    <td><a href="$room_link">$room</a></td>
+    <td><a href="$room_link" target="_blank">$room</a></td>
     <td>
         <span class="fw-bold fs-5">$title</span><br>
         $description
