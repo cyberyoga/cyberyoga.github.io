@@ -2,10 +2,6 @@
   room: coffee
   date: 27.12. 15:00
   description: Ein kleiner Rundumschlag zum Thema Tastaturen, im Speziellen solche, die Euch helfen, auch noch im Alter gesund und schnell zu tippen. Ich stelle andere Formen von Tastaturen vor und ein Beispiel, wie man sie selbst bauen und programmieren kann, welche fertigen Lösungen es gibt und wie Ihr Euch selbst spielerisch verbessern könnt. Da Tastaturen ihr eigenes Rabbit-hole sind, gebe ich Euch eine kurze Übersicht darüber. <a class="fw-bold" href="slides/keyboard talk - rC3 2021.pdf" target="_blank">Slides</a>
-- title: Scratch
-  room: mate
-  date: 27.12. 17:00
-  description: 
 - title: KX Studio Tools
   room: coffee
   date: 27.12. 19:00
@@ -30,10 +26,6 @@
   description: |
     Was ist geschlechtsspezifische digitale Gewalt? Welche Unterstützungsmöglichkeiten gibt es für Betroffene? Was können Mitarbeiter*innen (sozialer) Beratungsstellen tun?
     Nach einem Input zum Thema und einer kurzen Vorstellung von (nicht repräsentativen) Umfrageergebnissen zur Beratungsarbeit in Bezug auf digitale Gewalt in Hamburg, möchte ich gerne in den Austausch darüber kommen, wie die Schnittstelle von technischer und sozialer Beratungsarbeit gestaltet werden kann.
-- title: Scratch
-  room: mate
-  date: 28.12. 17:00
-  description: Reinschnuppern in die Grundlagen der Programmierung mit Scratch. Die Abende bauen zwar aufeinander auf, es ist aber auch möglich nur an einem Tag zu kommen. Ab 12 Jahren, aber nicht nur für Kinder. Keine Vorkenntnisse nötig, nur ein aktueller Browser.Wenn Du Deine Ergebnisse sichern möchtest, benötigst Du einen Account bei https://scratch.mit.edu/
 - title: Python
   room: coffee
   date: 28.12. 19:00
@@ -58,10 +50,6 @@
   room: mate
   date: 29.12. 13:00
   description: 
-- title: Scratch
-  room: mate
-  date: 29.12. 17:00
-  description: Reinschnuppern in die Grundlagen der Programmierung mit Scratch. Die Abende bauen zwar aufeinander auf, es ist aber auch möglich nur an einem Tag zu kommen. Ab 12 Jahren, aber nicht nur für Kinder. Keine Vorkenntnisse nötig, nur ein aktueller Browser.Wenn Du Deine Ergebnisse sichern möchtest, benötigst Du einen Account bei https://scratch.mit.edu/
 - title: Python
   room: coffee
   date: 28.12. 19:00
